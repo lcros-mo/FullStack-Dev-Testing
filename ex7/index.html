@@ -1,0 +1,51 @@
+<!DOCTYPE html >
+ <head>
+   <meta charset="utf-8">
+   <title>Formulario</title>
+ </head>
+ <body>
+ <h1>Ejercicio formularios</h1>
+ <h2>Formulario para añadir elementos a una base de datos</h2>
+ <form name="forma" id="forma" method="post" action="graba.php">
+   <label for="nombre" >Nombre:</label><br />
+   <input type="text" name="nombre"  id="nombre"><br />
+   <label for="apellidos" >Apellidos:</label><br />
+   <input type="text" name="apellidos" id="apellidos" ><br />
+   <label for="edad" >F.Nac.:</label><br />
+   <input type="text" name="edad" id="edad"><br />
+   <label for="dni" >DNI:</label><br />
+   <input type="text" name="dni" id="dni"><br />
+   <label for="domicilio" >Calle y número:</label><br />
+   <input type="text" name="domicilio" id="domicilio" ><br />
+   <label for="postal" >Código Postal:</label><br />
+   <input type="text" name="postal"  id="postal"><br />
+   <label for="localidad" >Ciudad:</label><br />
+   <input type="text" name="localidad"><br />
+   <label for="provincia" > Provincia:</label><br />
+   <input type="text" name="provincia" ><br />
+   <label for="telefono" >Teléfono:</label><br />
+   <input type="text" name="telefono" ><br />
+   <label for="opcion" > Estado Civil:</label><br />
+   <select name="opcion" id="opcion">
+     <option>Soltero</option>
+     <option>Casado</option>
+     <option>Divorciado</option>
+     <option>Otro</option>
+   </select><br /><br /> 
+   <input type="radio" name="sexo" id="sexo_h" value="H"> <label for="sexo_h" > Hombre</label>
+   <input type="radio" name="sexo" id="sexo_m" value="M"><label for="sexo_m" > Mujer </label><br /><br /> 
+   Idiomas:<br />
+   <input type="checkbox" name="idiomas" id="esp" value="E">
+  <label for="esp" > Español</label>
+   <input type="checkbox" name="idiomas" id="alm" value="A">
+  <label for="alm" > Alemán</label>
+   <input type="checkbox" name="idiomas" id="fr" value="F">
+  <label for="fr" > Frances</label>
+   <input type="checkbox" name="idiomas" id="it" value="I">
+  <label for="it" > Inglés</label>  <br /><br />  
+   <label for="coment" >Comentarios  personales:</label><br />
+   <textarea name="coment" id="coment" rows=2 cols=48></textarea ><br />
+   <input type="submit" value="Enviar datos ">
+ </form>
+ </body>
+ </html>
