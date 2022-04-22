@@ -1,0 +1,7 @@
+.ejemplo_gradiente{
+	width: 300px;
+	height: 200px;
+	background: -moz-radial-gradient(40% 50%,closest-side, red, blue );
+	background: -o-radial-gradient(40% 50%,closest-side, red, blue );
+	background: -webkit-radial-gradient(40% 50%,closest-side, red, blue );
+}

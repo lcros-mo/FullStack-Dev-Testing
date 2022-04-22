@@ -1,0 +1,35 @@
+div{
+    margin:10px;
+}
+
+.ejemplo_gradiente{
+	width: 200px;
+	height: 100px;
+	background: -moz-linear-gradient(red, blue); /* Esto generará un gradiente de arriba a abajo*/
+	background: -o-linear-gradient(red, blue); /* Esto generará un gradiente de arriba a abajo*/
+	background: -webkit-linear-gradient(red, blue); /* Esto generará un gradiente de arriba a abajo*/
+}
+
+.ejemplo_gradiente_izde{
+	width: 200px;
+	height: 100px;
+    background: -moz-linear-gradient(right, red, blue); 
+    background: -o-linear-gradient(right, red, blue); 
+    background: -webkit-linear-gradient(right, red, blue); 
+  
+}
+.ejemplo_gradiente_diag{
+    width: 200px;
+	height: 100px;
+	background: -moz-linear-gradient(top right, red, blue); 
+	background: -o-linear-gradient(top right, red, blue); 
+	background: -webkit-linear-gradient(top right, red, blue); 
+}
+
+.ejemplo_gradiente_dir{
+    width: 200px;
+	height: 100px;
+	background: -moz-linear-gradient(75deg, red, blue); 
+	background: -o-linear-gradient(75deg, red, blue); 
+	background: -webkit-linear-gradient(75deg, red, blue); 
+}

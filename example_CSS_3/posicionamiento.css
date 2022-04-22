@@ -1,0 +1,40 @@
+div{
+	width: 200px;
+	height:200px;
+	margin:10px;
+	padding:10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+}
+
+
+p span{
+	color:red;
+	display:block;
+	border-width: 1px;
+	border-color: blue;
+	border-style: dotted;
+	padding:5px;
+	margin: 5px;
+}
+
+#caja1{
+
+}
+
+#caja2{
+	position: relative;
+
+	
+}
+
+#caja3{
+	position: absolute;
+	
+}
+
+#caja4{
+	position: fixed;
+	
+}

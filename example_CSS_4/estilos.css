@@ -1,0 +1,11 @@
+
+h1{
+width:300px;
+padding:10px 20px;
+border:15px solid transparent;
+border-image:url(img/imagen-borde.png) 10 repeat;
+-moz-border-image:url(img/imagen-borde.png) 10 repeat; /* Firefox */
+-webkit-border-image:url(img/imagen-borde.png) 10 repeat; /* Safari and Chrome */
+-o-border-image:url(img/imagen-borde.png) 10 repeat; /* Opera */
+	
+}
